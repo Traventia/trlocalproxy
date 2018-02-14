@@ -1,0 +1,19 @@
+{
+  "name": "trlocalproxy",
+  "version": "1.0.1",
+  "description": "Simple local proxy creator",
+  "license": "MIT",
+  "author": "Traventia",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2-docker index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Traventia/trlocalproxy.git"
+  },
+  "bin": {
+    "trp": "./bin/trlocalproxy"
+  },
+  "main": "./trlocalproxy.js"
+}
